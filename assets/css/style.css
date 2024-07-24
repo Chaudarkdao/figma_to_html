@@ -373,16 +373,21 @@ btn:hover {
   border: none;
 }
 .popular .course-item .btn-book:hover {
-  background-color: var(--font-heading);
+  background: var(--primary-color);
 }
 /* feedback */
 .feedback {
   margin-top: 135px;
-  padding: 96px, 0;
+  padding: 96px 0;
   background: #2e2100;
+}
+.feedback-list {
+  display: flex;
+  overflow: hidden;
 }
 .feedback-item {
   display: flex;
+  flex-shrink: 0;
 }
 .feedback-item .avatar {
   width: 72px;
@@ -425,7 +430,7 @@ btn:hover {
 }
 .feedback-item .content {
   width: 66%;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 .feedback-item blockquote {
   color: #fff;
