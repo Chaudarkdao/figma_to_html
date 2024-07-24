@@ -440,7 +440,7 @@ btn:hover {
 
   line-height: 1.54; /* 153.846% */
 }
-/* feature */
+/* feature1 */
 .features {
   margin-top: 135px;
   padding: 65px 0;
@@ -481,4 +481,18 @@ btn:hover {
   width: 137px;
   height: 50px;
   background: var(--primary-color);
+}
+/* feature2 */
+.features-2nd {
+  margin-top: 70px;
+}
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+.features-2nd .content {
+  width: 49%;
+}
+.features-2nd .images img {
+  width: 470px;
+  height: 440px;
 }
